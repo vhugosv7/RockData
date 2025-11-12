@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataVision | Visualización, Automatización y Desarrollo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="bg-white shadow fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">DataVision</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#servicios" class="hover:text-indigo-600">Servicios</a>
+        <a href="#proyectos" class="hover:text-indigo-600">Proyectos</a>
+        <a href="#contacto" class="hover:text-indigo-600">Contacto</a>
+      </nav>
+      <a href="#contacto" class="md:hidden bg-indigo-600 text-white px-4 py-2 rounded-lg">Contáctanos</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="pt-32 pb-20 text-center bg-gradient-to-b from-indigo-600 to-indigo-800 text-white">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Transformamos tus datos en decisiones inteligentes</h2>
+      <p class="text-lg text-indigo-100 mb-8">
+        Servicios de <strong>visualización de datos</strong>, <strong>automatización de procesos</strong> y <strong>desarrollo a medida</strong> para impulsar tu negocio con tecnología.
+      </p>
+      <a href="#contacto" class="bg-white text-indigo-700 px-6 py-3 font-semibold rounded-lg shadow hover:bg-indigo-50 transition">
+        Agenda una consulta
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="py-20 max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h3>
+    <div class="grid md:grid-cols-3 gap-10">
+      
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition text-center">
+        <div class="text-indigo-600 text-5xl mb-4">📊</div>
+        <h4 class="text-xl font-semibold mb-2">Visualización de Datos</h4>
+        <p>Creación de dashboards y reportes interactivos con herramientas como Power BI, Tableau o Python para entender mejor tu negocio.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition text-center">
+        <div class="text-indigo-600 text-5xl mb-4">⚙️</div>
+        <h4 class="text-xl font-semibold mb-2">Automatización</h4>
+        <p>Optimiza tareas repetitivas mediante bots, scripts o integraciones con Google Sheets, APIs o Zapier para ahorrar tiempo y recursos.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition text-center">
+        <div class="text-indigo-600 text-5xl mb-4">💻</div>
+        <h4 class="text-xl font-semibold mb-2">Desarrollo Web</h4>
+        <p>Diseño y desarrollo de aplicaciones web personalizadas con Python, Flask, JavaScript y bases de datos modernas.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="bg-gray-100 py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Algunos Proyectos</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="Dashboard" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="font-semibold text-lg mb-2">Dashboard de Ventas</h4>
+            <p>Dashboard interactivo con Power BI para monitorear indicadores clave en tiempo real.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=800&q=80" alt="Automatización" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="font-semibold text-lg mb-2">Bot de Automatización</h4>
+            <p>Script en Python para enviar reportes automáticos diarios por correo y WhatsApp.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Desarrollo Web" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="font-semibold text-lg mb-2">Portal de Clientes</h4>
+            <p>Aplicación web para gestión de clientes y reportes usando Flask y base de datos MySQL.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-20 text-center">
+    <h3 class="text-3xl font-bold mb-6">¿Listo para empezar?</h3>
+    <p class="text-lg mb-8">Conversemos sobre cómo podemos ayudarte a potenciar tu negocio con tecnología.</p>
+    <a href="https://wa.me/521XXXXXXXXXX" target="_blank" class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition">
+      💬 Contáctanos por WhatsApp
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center">
+    <p>© 2025 DataVision. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
